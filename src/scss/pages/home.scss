@@ -1,0 +1,62 @@
+.main-section-home {
+  background-image: url('../../../public/images/home.jpg');
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 100dvh;
+  padding: 60px 20px 0 20px;
+  
+  p {
+    margin-top: 30px;
+  }
+
+  &__start-order-btn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+
+    button {
+      background-color: $c-secondary;
+      border-radius: 50px;
+      color: $c-primary;
+      height: 42px;
+      width: 151px;
+    }
+  }
+}
+
+.secondary-section-home {
+  background-image: url('../../../public/images/secondary-home.png');
+  background-size: cover;
+  height: 30vh;
+  padding: 20px;
+
+  h2 {
+    font-weight: $fw-extraBold;
+    text-transform: uppercase;
+    font-size: 28px;
+  }
+
+  p {
+    margin-top: 30px;
+  }
+
+  &__join-club-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    button {
+      background-color: #C4D1B2;
+      border-radius: 50px;
+      color: #3C2526;
+      font-weight: $fw-bold;
+      height: 46px;
+      width: 176px;
+    }
+  }
+}
+
+.quality-text {
+  margin-top: 10px;
+}

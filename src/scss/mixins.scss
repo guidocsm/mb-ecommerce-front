@@ -1,0 +1,11 @@
+// Breakpoint mixin
+@mixin breakpoint($breakpoint) {
+  $value: if(
+    map-has-key($breakpoints, $breakpoint),
+    map-get($breakpoints, $breakpoint),
+    $breakpoint
+  );
+  @media (min-width: $value) {
+    @content;
+  }
+}

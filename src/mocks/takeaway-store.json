@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "MB. Felix Boix, 10",
+    "address": "C/ Felix Boix, 10",
+    "phone": 666555444,
+    "schedule": "Lunes a domingo de 10:00 a 21:00"
+  },
+  {
+    "id": 1,
+    "name": "MB. C. C Carrefour Alcobendas",
+    "address": "C/ Carrefour Alcobendas, 12",
+    "phone": 618592847,
+    "schedule": "Lunes a domingo de 10:00 a 21:00"
+  },
+  {
+    "id": 2,
+    "name": "MB. C. C Gran Vía Hortaleza de la Alcobendas",
+    "address": "C/ C. C Gran Vía Hortaleza de la Alcobendas, 33",
+    "phone": 678439156,
+    "schedule": "Lunes a domingo de 10:00 a 21:00"
+  },
+  {
+    "id": 3,
+    "name": "MB. Ventilla",
+    "address": "C/ Ventilla, 12",
+    "phone": 654871325,
+    "schedule": "Lunes a domingo de 10:00 a 21:00"
+  }
+]

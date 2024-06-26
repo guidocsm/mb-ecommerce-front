@@ -1,0 +1,28 @@
+//colors
+$c-base: #fff;
+$c-dark: #000;
+$c-error: #ee2737;
+$c-light-dark: #8d8d8d;
+$c-success: #4bb543;
+$c-warn: #ffb600;
+$c-primary: #01372A;
+$c-secondary: #FBD468;
+
+//Font-weight
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semiBold: 600;
+$fw-bold: 700;
+$fw-extraBold: 800;
+$fw-heavy: 900;
+
+// Breakpoints
+$breakpoints: (
+  'phone': 320px,
+  'phone-large': 480px,
+  'tablet': 768px,
+  'desktop': 1024px,
+  'desktop-large': 1280px,
+  'desktop-xl': 1440px
+);
